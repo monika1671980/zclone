@@ -5,6 +5,7 @@ import Filter from './Filter';
 import Details from './Details';
 import Header from './Header';
 // import QuickSearchItem from './QuickSearchItem';
+
 function Router () {
     return(
         <BrowserRouter>
@@ -12,6 +13,7 @@ function Router () {
         <Route exact path="/" component={Home}/>
         <Route  path="/filter" component={Filter}/>
         <Route  path="/details" component={Details}/>
+      
         </BrowserRouter>
 
 

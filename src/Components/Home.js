@@ -6,6 +6,7 @@ import QuickSearch from './QuickSearch';
 // import { withRouter } from 'react-router-dom';
 
 
+
 class Home extends React.Component {
     constructor() {
         super();
@@ -47,6 +48,7 @@ class Home extends React.Component {
             <div>
                 <Wallpaper locationsData={locations}/>
                 <QuickSearch quickSearchData={mealtypes}/>
+            
               
               
         
