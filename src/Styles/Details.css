@@ -1,0 +1,97 @@
+/* CustomTabs.css */
+.my-tabs__tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #a2e2a2;
+    /* border-bottom: 2px solid #e00f0f; */
+    margin-right: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  .my-tabs__tab--selected {
+    /* background-color: #2196f3; */
+    color: rgb(11, 10, 10);
+    border-bottom: 4px solid #e00f0f;
+  }
+  
+  .my-tabs__tab-panel {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-top: none;
+  }
+  
+  .my-tabs__tab-list {
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  .btn-order {
+    padding: 10px;
+    background-color: #e00f0f;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin-right: 8px;
+   
+    border-radius: 8px;
+  
+
+  }
+  .rest-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .add-button {
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    font-size: 12px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(28, 184, 14);
+    color: rgb(233, 242, 242);
+    transition: all 0.5s ease;
+
+  }
+  .add-button:hover {
+    transform: scale(1.5);
+  }
+
+  .payment_form {
+    padding: 6px;
+    width: 350px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 8px;
+    box-shadow: 2px 1px 2px 2px rgb(172, 172, 246);
+  }
+  .payment_form:focus {
+    outline: none;
+    box-shadow: 2px 2px 2px 2px rgb(115, 247, 141),
+                -1px -1px 2px 3px rgb(115, 247, 141);
+
+  } 
+  ::placeholder {
+    color: rgb(177, 173, 173);
+    padding-left: 20px;
+  }
+  #proceed {
+    padding: 10px;
+    background-color: rgb(17, 179, 17);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    float: right;
+    margin-top: 8px;
+    font-weight: bolder;
+
+  }
+  

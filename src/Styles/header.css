@@ -1,0 +1,59 @@
+.header {
+    background-color: #ff0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    
+    font-size: 25px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.p-logo {
+    background-color: #fff;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    line-height: 1.8;
+    border-radius: 50%;
+    
+
+}
+.user-account {
+    display: flex;
+    color: #fff;
+   
+
+   
+   
+  
+}
+.login {
+    margin-right: 10px;
+   
+}
+.signup {
+    border: 1px solid #fff;
+    padding: 0 10px 0 10px;
+}
+.ep-input {
+    margin: 8px;
+}
+.h2-login {
+    margin-left: 10px;
+
+}
+.button-div {
+    text-align: center;
+}
+.form-button {
+    margin: 8px;
+    padding: 5px;
+    border-radius: 3px;
+
+}
